@@ -11,6 +11,7 @@ namespace GymManagement.Controllers
         // GET: Title
         public ActionResult Index()
         {
+            string name = string.Empty;
             return View();
         }
     }
