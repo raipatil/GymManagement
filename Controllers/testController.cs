@@ -6,19 +6,11 @@ using System.Web.Mvc;
 
 namespace GymManagement.Controllers
 {
-    public class MemberController : Controller
+    public class testController : Controller
     {
-        // GET: Member
+        // GET: test
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult CreateMember()
-        {
-            string name = "Hello";
-
-            ViewBag.Name = name;    
             return View();
         }
     }

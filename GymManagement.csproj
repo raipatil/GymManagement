@@ -120,8 +120,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="Controllers\testController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -166,8 +168,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Image\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Demo\" />
     <Folder Include="Views\Member\" />
+    <Folder Include="Views\test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
